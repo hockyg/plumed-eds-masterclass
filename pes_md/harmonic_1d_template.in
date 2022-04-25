@@ -1,0 +1,9 @@
+temperature 1.0
+tstep 0.01
+friction 0.1
+dimension 1
+nstep 1000000
+ipos 0.1
+idum 1
+periodic false
+plumed _PLUMEDFILE_
