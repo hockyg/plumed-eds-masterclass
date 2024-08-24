@@ -118,7 +118,9 @@ PRINT ARG=* STRIDE=500 FILE=_PREFIX_.colvars.dat
 Try biasing phi and psi independently. Try biasing them at the same time. What is a good PERIOD to choose?
 
 ![Histogram of phi and psi for adp from a very long unbiased simulation](figs/masterclass-22-6-ala2_unbiased.png 
+
 ![Histogram of phi and psi for adp from a very long unbiased simulation with <phi> biased to be 1](figs/masterclass-22-6-ala2_eds_phi1.png  
+
 ![Histogram of phi and psi for adp from a very long unbiased simulation with <psi> biased to be 1](figs/masterclass-22-6-ala2_eds_psi1.png 
 
 ### Free explore
