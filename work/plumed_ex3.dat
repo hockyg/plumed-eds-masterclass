@@ -1,0 +1,7 @@
+MOLINFO STRUCTURE=./input.ala2.pdb
+phi: TORSION ATOMS=@phi-2
+psi: TORSION ATOMS=@psi-2
+
+eds: EDS ARG=__FILL__ CENTER=__FILL__ PERIOD=__FILL__ OUT_RESTART=_PREFIX_.restart.dat BIAS_SCALE=1
+
+PRINT ARG=* STRIDE=500 FILE=_PREFIX_.colvars.dat
